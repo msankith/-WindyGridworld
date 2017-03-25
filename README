@@ -34,3 +34,39 @@ python plot.py <FILENAME>(temp.txt)
 Path taken by agent
 python plotPath.py <FILENAME>(policyRun.txt)
 
+
+
+Implement the Windy Gridworld task given as Example 6.5 by Sutton and Barto (1998):
+
+    http://webdocs.cs.ualberta.ca/~sutton/book/ebook/node64.html.
+
+1. Implement a Sarsa(0) agent as described in the example, and obtain a baseline plot similar to the one in Figure 6.11.
+
+2. Get another plot when King's moves are permitted (that is, 8 actions in total), as described in Exercise 6.6.
+
+3. Add stochasticity to the task as described in Exercise 6.7, and plot the resulting performance of the Sarsa agent.
+
+
+You must submit:
+
+1. Your code for implementing the task and its variants;
+2. Code for your Sarsa agent;
+3. A script to run your simulations and gather data; 
+4. Plots of your agent's performance; 
+5. A README file describing how to run your code and obtain the plots; and
+6. A report presenting your observations from these experiments (as a pdf file).
+
+Submit all these files through Moodle, as a compressed directory named submission.tar.gz.
+
+
+This assignment is meant to give you the experience of developing both agent and environment. Convince yourself that the results obtained match what you expect. Feel free to be creative and use the simulation environment to test related hypotheses you might find interesting.
+
+Your observations (under 6) must explain the variations observed across the three task settings, and report any particular issues you encountered while experimenting with this task. Don't hesitate to include additional numbers or graphs.
+
+Your marks will be determined primarily by the plots you obtain for the three settings of the task, but will also depend on the interpretations you provide.
+
+Your submission is due by 11.59 p.m., Sunday, November 8. You will get a score of zero if your submission is not received by the deadline.
+
+You must work alone on this assignment. Do not share any code (whether yours or code you have found on the Internet) with your classmates.
+
+
