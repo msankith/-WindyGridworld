@@ -1,0 +1,36 @@
+To compile 
+==========
+Run Make
+
+To clean
+========
+
+
+To run and get Plot 
+===================
+Run the following command
+
+i) For baseline
+./grid 4
+
+
+ii) For king's Moves
+./grid 8
+
+iii) For stochastic wind
+./grid 4 true
+./grid 8 true
+
+*Data will be stored in temp.txt file in following format : first column episode count [tabSpace] second column iterations completed 
+*PATH taken by agent will be stored in policyRun.txt 
+
+To plot :
+=========
+Iterations vs Episode count
+python plot.py <FILENAME>(temp.txt)
+
+*fileshould be in following format : first column episode count [tabSpace] second column iterations completed 
+
+Path taken by agent
+python plotPath.py <FILENAME>(policyRun.txt)
+
